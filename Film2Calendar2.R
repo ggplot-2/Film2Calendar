@@ -92,6 +92,4 @@ Film <- data.frame(Subject,
 names(Film) <-  names(Film) %>%
   str_replace_all("_", " ")
 write.csv(Film,
-          "C:/Users/dhmia/Desktop/小西天影片排片.csv")
-
-
+          "./Movie information/小西天影片排片.csv")
